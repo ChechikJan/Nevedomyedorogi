@@ -19,6 +19,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
     <style>
       .rounded-imq {
         width: 30%;
@@ -26,6 +27,17 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
         padding: 0.4em;
         margin-bottom: 1em;
+      }
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
       }
     </style>
   </head>
@@ -63,7 +75,7 @@
     </nav>
     <div style="text-align: center" class="container my-5">
       <div class="row">
-        <div class="col-lg-6 mx-auto">
+        <div class="col-lg-8 mx-auto">
           <img class="rounded-imq" src="test.jpg" alt="лесная дорога" />
           <h1>Там на неведомых дорожках</h1>
           <p class="lead">
@@ -71,25 +83,86 @@
             Не сиди дома- открой для себя удивительный мир природы.Скалы,
             водопады, купание в горных реках
           </p>
-          <a href="Волчьи ворота.html" target="_blank" class="btn btn-primary">
-            Волчьи ворота
-          </a>
-
-          <a href="Лысый камень.html" target="_blank" class="btn btn-warning">
-            Лысый камень
-          </a>
-          <a
-            href="Пшехасу-Водопадистый.html"
-            target="_blank"
-            class="btn btn-secondary"
-          >
-            Пшехасу-Водопадистый
-          </a>
-          <a href="Река Куба.html" target="_blank" class="btn btn-primary">
-            Река Куба
-          </a>
+          <div class="container my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+              <div class="col">
+                <div class="card">
+                  <img src="vv.png" class="card-img-top" alt="Волчьи ворота" />
+                  <div class="card-body">
+                    <h5 class="card-title">Волчьи ворота</h5>
+                    <p class="card-text">
+                      Урочище Волчьи ворота .В долине реки Пшеха.
+                    </p>
+                    <a href="Волчьи ворота.html" class="btn btn-primary"
+                      >Поехали!</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="lk.png" class="card-img-top" alt="Лысый камень" />
+                  <div class="card-body">
+                    <h5 class="card-title">Лысый камень</h5>
+                    <p class="card-text">Скальная смотровая площадка</p>
+                    <a href="Лысый камень.html" class="btn btn-primary"
+                      >Поехали!
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img
+                    src="pv.png"
+                    class="card-img-top"
+                    alt="Пшехасу-Водопады"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Пшехасу-Водопады</h5>
+                    <p class="card-text">
+                      Водопады с горы Пшехасу высотой более 200 м
+                    </p>
+                    <a href="Пшехасу-Водопады.html" class="btn btn-primary"
+                      >Поехали!
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="rk.png" class="card-img-top" alt="Река Куба" />
+                  <div class="card-body">
+                    <h5 class="card-title">Река Куба</h5>
+                    <p class="card-text">Прогулки по каньону реки Куба</p>
+                    <a href="Река Куба.html" class="btn btn-primary"
+                      >Поехали!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <a title="Telegram" href="https://t.me/nevedomyedorogi" target="_blank"
+        ><img
+          src="tg.png"
+          alt="Написать нам в Telegram"
+          height="40"
+          width="200"
+      /></a>
+
+      <a
+        title="Whatsapp"
+        href="https://chat.whatsapp.com/FQENbru7qRK7yyG5xH4K3g"
+        target="_blank"
+        ><img
+          src="wa.png"
+          alt="Написать нам в Whatsapp"
+          height="40"
+          width="200"
+      /></a>
     </div>
   </body>
 </html>
