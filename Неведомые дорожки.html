@@ -21,12 +21,22 @@
     ></script>
 
     <style>
-      .rounded-imq {
-        width: 20%;
-        border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-        padding: 0.4em;
-        margin-bottom: 1em;
+      body {
+        background-image: url(фон.jpg);
+
+        background-repeat: no-repeat;
+
+        background-position: center center;
+
+        background-attachment: fixed;
+
+        -webkit-background-size: cover;
+
+        -moz-background-size: cover;
+
+        -o-background-size: cover;
+
+        background-size: cover;
       }
       .card {
         border-radius: 1em;
@@ -34,10 +44,20 @@
         padding: 1em;
       }
       .card:hover {
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgb(193, 185, 35);
       }
-      .card img {
-        border-radius: 50%;
+
+      h1 {
+        text-align: center;
+        font-family: comic sans ms;
+        font-size: 2em;
+        color: rgb(184, 133, 31);
+      }
+      .lead {
+        background-color: antiquewhite;
+        text-align: center;
+        font-family: comic sans ms;
+        font-size: 1.5em;
       }
     </style>
   </head>
@@ -78,7 +98,6 @@
     <div style="text-align: center" class="container my-5">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <img class="rounded-imq" src="test.jpg" alt="лесная дорога" />
           <h1>Там на неведомых дорожках</h1>
           <p class="lead">
             <b>
@@ -88,39 +107,7 @@
             </b>
           </p>
           <div class="container my-5">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
-              <div class="col">
-                <div class="card">
-                  <img src="vv.png" class="card-img-top" alt="Волчьи ворота" />
-                  <div class="card-body">
-                    <h5 class="card-title">Волчьи ворота</h5>
-                    <p class="card-text">
-                      Урочище Волчьи ворота
-                      <a
-                        href="Волчьи ворота.html"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Поехали!</a
-                      >
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="lk.png" class="card-img-top" alt="Лысый камень" />
-                  <div class="card-body">
-                    <h5 class="card-title">Лысый камень</h5>
-                    <p class="card-text">Скальная смотровая площадка</p>
-                    <a
-                      href="Лысый камень.html"
-                      class="btn btn-primary"
-                      target="_blank"
-                      >Поехали!
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-5">
               <div class="col">
                 <div class="card">
                   <img
@@ -140,6 +127,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="col">
                 <div class="card">
                   <img src="rk.png" class="card-img-top" alt="Река Куба" />
@@ -150,6 +138,33 @@
                       href="Река Куба.html"
                       class="btn btn-primary"
                       target="_blank"
+                      >Поехали!
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="lk.png" class="card-img-top" alt="Река Куба" />
+                  <div class="card-body">
+                    <h5 class="card-title">Лысый Камень</h5>
+                    <p class="card-text">Крыша мира</p>
+                    <a
+                      href="Лысый камень.html"
+                      class="btn btn-primary"
+                      target="_blank"
+                      >Поехали!
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="sp.jpg" class="card-img-top" alt="Площадка" />
+                  <div class="card-body">
+                    <h5 class="card-title">Смотровые площадки</h5>
+                    <p class="card-text">Незабываемый пейзажи</p>
+                    <a href="#" class="btn btn-primary" target="_blank"
                       >Поехали!
                     </a>
                   </div>
@@ -174,6 +189,13 @@
         ><img
           src="wa.png"
           alt="Написать нам в Whatsapp"
+          height="40"
+          width="200"
+      /></a>
+      <a title="В Контакте" href="https://vk.com/club213245815" target="_blank"
+        ><img
+          src="VK.png"
+          alt="Написать нам в В Контакте"
           height="40"
           width="200"
       /></a>
